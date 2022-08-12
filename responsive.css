@@ -1,0 +1,1478 @@
+@media screen and (max-width: 1440px) {
+	.container {
+		margin: 0 120px;
+	}
+
+	.info1 {
+		left: 820px;
+	}
+
+	.info2 {
+		left: 1130px;
+	}
+
+	.info3 {
+		left: 725px;
+	}
+
+	.about_paragraph {
+		width: 440px;
+	}
+
+	.whom_box {
+		width: 265px;
+	}
+
+	.advantages_info {
+		width: 600px;
+	}
+
+	.whywe_value,
+	.whywe_name {
+		width: 360px;
+	}
+	
+	.ws_macbook,
+	.macbook {
+		left: -300px;
+	}
+
+	.macbook_text {
+		left: 82px;
+	}
+
+	.ws_iphone {
+		left: 420px;
+	}
+	
+	.iphone_text {
+		left: 440px;
+	}
+
+	.iphone_text_list {
+		left: 445px;
+	}
+	
+	.iphone {
+		left: 410px;
+	}
+
+	.application_box {
+		width: 170px;
+		height: 160px;
+	}
+	
+	.application_text {
+		width: 170px;
+	}
+
+	.useful_box {
+		width: 365px;
+		height: 270px;
+	}
+
+	.useful_title {
+		width: 365px;
+	}
+}	
+
+@media screen and (max-width: 1200px) {
+	.container {
+		margin: 0 64px;
+	}
+
+	.home_title {
+		font-size: 45px;
+	}
+	
+	.home_paragraph {
+		line-height: 28px;
+	}
+
+	.ellipse1 {
+		width: 340px;
+		height: 340px;
+	}
+	
+	.ellipse2 {
+		width: 370px;
+		height: 370px;
+		margin-left: 41px;
+	}
+	
+	.ellipse3 {
+		width: 100px;
+		height: 100px;
+	}
+	
+	.ellipse4 {
+		width: 120px;
+		height: 120px;
+		margin-left: -48px;
+	}
+	
+	.orange_book {
+		width: 404px;
+		height: 410px;
+		margin-left: -24px;
+	}
+	
+	.white_book {
+		width: 319px;
+		height: 324px;
+		margin-left: 160px;
+	}
+	
+	.info1 {
+		left: 680px;
+	}
+	
+	.info2 {
+		width: 175px;
+		height: 45px;
+		left: 1010px;
+		padding: 10px 3px 10px 7px;
+	}
+
+	.info2_icon {
+		width: 20px;
+		height: 20px;
+	}
+
+	.info2_title {
+		width: 140px;
+		font-size: 12px;
+		margin-left: 2px;
+	}
+	
+	.info3 {
+		width: 140px;
+		height: 40px;
+		left: 620px;
+		top: 660px;
+		padding: 10px 8px 10px 7px;
+	}
+
+	.info3_icon {
+		width: 29px;
+		height: 25px;
+	}
+
+	.info3_title {
+		width: 100px;
+		font-size: 13px;
+		margin-left: -4px;
+	}
+
+	.about_index {
+		width: 80px;
+		font-size: 50px;
+	}
+
+	.about_paragraph {
+		width: 415px;
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	.whom_box {
+		width: 255px;
+	}
+
+	.advantages_info {
+		width: 570px;
+	}
+
+	.whywe_value,
+	.whywe_name {
+		width: 350px;
+	}
+
+	.ws_macbook,
+	.macbook {
+		left: -380px;
+	}
+
+	.macbook_text {
+		left: 42px;
+	}
+
+	.ws_iphone {
+		left: 340px;
+	}
+	
+	.iphone_text {
+		left: 360px;
+	}
+
+	.iphone_text_list {
+		left: 365px;
+	}
+	
+	.iphone {
+		left: 330px;
+	}
+
+	.application_section {
+		margin-left: 540px;
+	}
+
+	.application_box,
+	.application_text {
+		width: 165px;
+	}
+
+	.useful_box,
+	.useful_title {
+		width: 345px;
+	}
+
+	.useful_text {
+		width: 310px;
+		height: 100px;
+		font-size: 13px;
+		line-height: 20px;
+		text-align: center;
+	}
+
+	.white_space_video {
+		width: 520px;
+		height: 450px;
+	}
+
+	.products_data {
+		justify-content: space-between;
+	}
+
+	.orange_book2 {
+		height: 500px;
+		margin: 50px 0 0 -60px;
+	}
+	
+	.products_info {
+		width: 630px;
+	}
+	
+	.products_price {
+		width: 240px;
+		height: 45px;
+		font-size: 45px;
+	}
+	
+	.products_name {
+		width: 350px;
+		height: 25px;
+		font-size: 25px;
+	}
+
+	.products_list1 {
+		width: 250px;
+	}
+	
+	.products_list2 {
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.home_title {
+		width: 500px;
+		font-size: 36px;
+	}
+	
+	.home_paragraph {
+		font-size: 16px;
+		margin: 10px 0 50px;
+	}
+
+	.download_button,
+	.buy_button {
+		width: 210px;
+	}
+
+	.download_button {
+		margin-right: 10px;
+	}
+	
+	.buy_button {
+		margin-left: 10px;
+	}
+
+	.ellipse1 {
+		width: 330px;
+		height: 330px;
+	}
+	
+	.ellipse2 {
+		width: 350px;
+		height: 350px;
+	}
+	
+	.ellipse3 {
+		width: 85px;
+		height: 85px;
+	}
+	
+	.ellipse4 {
+		width: 100px;
+		height: 100px;
+		margin: 380px 0 0 -10px;
+	}
+
+	.orange_book {
+		width: 350px;
+		height: 360px;
+		margin: 60px 0 0 -10px;
+	}
+	
+	.white_book {
+		width: 270px;
+		height: 294px;
+		margin-left: 140px;
+	}
+
+	.info1 {
+		width: 165px;
+		height: 100px;
+		left: 570px;
+		padding: 6px 0 5px;
+	}
+
+	.icons {
+		margin-left: 45px;
+	}
+
+	.info1_title {
+		width: 165px;
+		font-size: 12px;
+	}
+	
+	.info1_icon {
+		font-size: 12px;
+	}
+
+	.info1_number {
+		width: 65px;
+		font-size: 12px;
+	}
+	
+	.info2 {
+		height: 40px;
+		left: 810px;
+		top: 460px;
+	}
+
+	.info3 {
+		width: 125px;
+		height: 40px;
+		left: 500px;
+		top: 615px;
+		padding: 5px 8px 5px 7px;
+	}
+
+	.info3_icon {
+		width: 25px;
+		height: 20px;
+	}
+
+	.info3_title {
+		width: 80px;
+		font-size: 12px;
+		margin-left: 4px;
+	}
+
+	.about_content {
+		margin-top: 130px;
+	}
+
+	.about_index {
+		width: 65px;
+		font-size: 40px;
+	}
+
+	.about_paragraph {
+		width: 360px;
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.whom_box {
+		width: 205px;
+		height: 240px;
+	}
+
+	.whom_icon {
+		width: 60px;
+		height: 65px;
+		margin: 40px 0 25px 0;
+	}
+	
+	.whom_text {
+		height: 70px;
+		width: 160px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.advantages_section {
+		margin-top: 160px;
+	}
+
+	.advantages_info {
+		width: 450px;
+		height: 30px;
+		margin: 40px 0;
+	}
+
+	.advantages_text {
+		height: 20px;
+		font-size: 18px;
+	}
+
+	.advantages_info .p4 {
+		width: 410px;
+	}
+
+	.advantages_icon {
+		font-size: 22px;
+		margin-right: 15px;
+	}
+
+	.advantages_image {
+		width: 350px;
+		height: 380px;
+		margin-left: 40px;
+	}
+
+	.whywe_section {
+		margin-top: 150px;
+	}
+
+	.whywe_value,
+	.whywe_name {
+		width: 280px;
+	}
+
+	.whywe_value {
+		font-size: 60px;
+	}
+	
+	.whywe_name {
+		font-size: 25px;
+	}
+
+	.application_section {
+		margin-top: 200px;
+		margin-left: 410px;
+	}
+
+	.ws_macbook,
+	.macbook {
+		left: -350px;
+		top: 2800px;
+	}
+
+	.ws_macbook {
+		width: 675px;
+		height: 400px;
+	}
+
+	.macbook_text {
+		width: 258px;
+		height: 50px;
+		left: -22px;
+		top: 2970px;
+	}
+
+	.macbook {
+		width: 800px;
+		height: 450px;
+	}
+
+	.ws_iphone {
+		width: 170px;
+		height: 340px;
+		left: 240px;
+		top: 2950px;
+	}
+	
+	.iphone_text {
+		left: 235px;
+		top: 3000px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.iphone_text_list {
+		left: 265px;
+		top: 3030px;
+	}
+
+	.iphone_text_item {
+		width: 140px;
+		font-size: 10px;
+		line-height: 12px;
+		margin-bottom: 8px;
+	}
+	
+	.iphone {
+		width: 190px;
+		height: 370px;
+		left: 230px;
+		top: 2930px;
+	}
+
+	.application_content .section_title {
+		font-size: 35px;
+	}
+
+	.application_paragraph {
+		font-size: 17px;
+		line-height: 27px;
+		margin: 60px 0;
+	}
+
+	.application_box {
+		width: 145px;
+		height: 140px;
+	}
+
+	.application_icon {
+		width: 23px;
+		height: 25px;
+		margin-top: 25px;
+	}
+	
+	.application_text {
+		width: 140px;
+		font-size: 14px;
+	}
+
+	.useful_data {
+		justify-content: space-evenly;
+	}
+
+
+	.ouroffer_section .container {
+		align-items: center;
+	}
+
+	.ouroffer_text {
+		height: 30px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.white_space_video {
+		width: 450px;
+		height: 300px;
+	}
+	
+	.orange_book2 {
+		height: 420px;
+		margin: 50px 30px 0 -100px;
+	}
+
+	.products_header {
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+	}
+
+	.products_info {
+		width: 550px;
+		margin-left: -200px;
+	}
+
+	.products_price {
+		width: 220px;
+		font-size: 40px;
+	}
+
+	.products_name {
+		width: 330px;
+		font-size: 20px;
+	}
+
+	.products_list1 {
+		width: 220px;
+	}
+	
+	.products_list2 {
+		width: 330px;
+	}
+
+	.products_item {
+		font-size: 14px;
+	}
+
+	.button {
+		padding: 15px 0 5px;
+	}
+	
+	.purchase_button,
+	.borrow_button {
+		height: 50px;
+	}
+
+	.products_index {
+		width: 100px;
+	}
+
+	.pages {
+		margin-left: 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.ellipse {
+		left: 16.05%;
+		top: 11.46%;
+	}
+	
+	.semi_ellipse {
+		left: 16.6%;
+		top: 12.81%;
+	}
+	
+	.like {
+		left: 62%;
+		bottom: 70.31%;
+	}
+	
+	.vector {
+		bottom: 28.986%;
+	}
+	
+	.case {
+		bottom: 39.91%;
+	}
+
+	.home_content {
+		margin-top: 150px;
+	}
+
+	.home_title {
+		width: 658px;
+		font-size: 50px;
+	}
+
+	.home_paragraph {
+		line-height: 30px;
+	}
+	
+	.home_buttons {
+		flex-direction: column;
+	}
+
+	.download_button,
+	.buy_button {
+		margin: 10px 0;
+	}
+
+	.ellipse1,
+	.ellipse2,
+	.ellipse3,
+	.ellipse4,
+	.orange_book,
+	.white_book {
+		position: absolute;
+	}
+
+	.ellipse1 {
+		width: 280px;
+		height: 280px;
+	}
+	
+	.ellipse2 {
+		width: 300px;
+		height: 300px;
+		left: 370px;
+		top: 320px;
+	}
+	
+	.ellipse3 {
+		width: 75px;
+		height: 75px;
+	}
+	
+	.ellipse4 {
+		width: 90px;
+		height: 90px;
+		left: 370px;
+		top: 300px;
+	}
+
+	.orange_book {
+		width: 310px;
+		height: 320px;
+		left: 370px;
+		top: 310px;
+	}
+	
+	.white_book {
+		width: 220px;
+		height: 239px;
+		left: 365px;
+		top: 310px;
+	}
+
+	.info1 {
+		left: 350px;
+		top: 390px;
+	}
+	
+	.info2 {
+		width: 140px;
+		height: 60px;
+		left: 600px;
+		top: 550px;
+	}
+
+	.info2_title {
+		width: 80px;
+		height: 40px;
+		margin-left: 20px;
+	}
+
+	.info3 {
+		left: 285px;
+		top: 725px;
+	}
+
+	.about_content {
+		margin-top: 160px;
+	}
+
+	.about_info {
+		margin-bottom: 20px;
+	}
+
+	.about_index {
+		width: 100px;
+		font-size: 60px;
+	}
+
+	.about_paragraph {
+		width: 480px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.whom_content {
+		justify-content: space-evenly;
+	}
+
+	.whom_box {
+		width: 280px;
+		height: 310px;
+		margin-bottom: 20px;
+	}
+
+	.whom_icon {
+		width: 100px;
+		height: 110px;
+		margin: 90px 0 50px 0;
+	}
+	
+	.whom_text {
+		width: 100%;
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.advantages_list {
+		margin-top: 40px;
+	}
+
+	.advantages_info {
+		width: 330px;
+		height: 60px;
+		margin: 35px 0;
+	}
+	
+	.advantages_text {
+		height: 50px;
+		font-size: 20px;
+	}
+
+	.advantages_info .p1,
+	.advantages_info .p2,
+	.advantages_info .p3,
+	.advantages_info .p4 {
+		width: 240px;
+	}
+
+	.advantages_icon {
+		font-size: 30px;
+	}
+
+	.advantages_image {
+		width: 280px;
+		height: 350px;
+		margin-left: 20px;
+	}
+
+	.whywe_data {
+		justify-content: center;
+	}
+	 
+	.whywe_value {
+		width: 380px;
+		font-size: 60px;
+	}
+	
+	.whywe_name {
+		width: 380px;
+		font-size: 30px;
+	}
+
+	.application_section {
+		margin-top: 230px;
+		margin-left: 340px;
+	}
+
+	.application_section .section_title {
+		font-size: 30px;
+		width: 380px;
+		margin-left: -30px;
+	}
+
+	.ws_macbook,
+	.macbook {
+		left: -400px;
+		top: 3880px;
+	}
+
+	.macbook_text {
+		left: -57px;
+		top: 4050px;
+	}
+
+	.ws_iphone {
+		left: 190px;
+		top: 4030px;
+	}
+	
+	.iphone_text {
+		left: 185px;
+		top: 4080px;
+	}
+
+	.iphone_text_list {
+		left: 215px;
+		top: 4110px;
+	}
+
+	.iphone {
+		left: 180px;
+		top: 4010px;
+	}
+
+	.application_paragraph {
+		margin: 70px 0;
+	}
+
+	.application_box {
+		margin-bottom: 10px;
+	}
+
+	.useful_section {
+		margin-top: 200px;
+	}
+	
+	.useful_title,
+	.useful_box {
+		width: 300px;
+	}
+
+	.useful_box {
+		height: 230px;
+	}
+	
+	.useful_text {
+		width: 280px;
+		margin-left: -14px;
+	}
+
+	.ouroffer_text {
+		height: 40px;
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	.white_space_video {
+		width: 600px;
+		height: 450px;
+	}
+
+	.orange_book2,
+	.products_info {
+		margin: 25px 0;
+	}
+	
+	.products_info {
+		width: 680px;
+	}
+
+	.products_data {
+		justify-content: center;
+	}
+
+	.products_price {
+		width: 270px;
+		font-size: 50px;
+		line-height: 61px;
+	}
+	
+	.products_name {
+		font-size: 30px;
+		line-height: 37px;
+	}
+
+	.products_list1 {
+		width: 260px;
+	}
+	
+	.products_list2 {
+		width: 360px;
+	}
+
+	.purchase_button,
+	.borrow_button {
+		height: 60px;
+	}
+
+	.products_index {
+		width: 140px;
+	}
+
+	.pages {
+		justify-content: center;
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.container {
+		margin: 0 30px;
+	}
+
+	.nav_toggle {
+		width: 25px;
+		height: 3px;
+	}
+	
+	.nav_toggle:before{
+		transform: translateY(-10px);
+	}
+	
+	.nav_toggle:after {
+		transform: translateY(10px);
+	}
+	
+	.nav_toggle:before,
+	.nav_toggle:after {
+		width: 34px;
+		height: 3px;
+	}
+
+	.nav_title {
+		width: 75px;
+		margin-left: 25px;
+	}
+
+	.nav_input {
+		width: 240px;
+	}
+	
+	.input_text {
+		width: 205px;
+	}
+	
+	.input_icon {
+		padding: 10px 7px;	
+	}
+
+	.home_title {
+		width: 620px;
+		font-size: 45px;
+		line-height: 63px;
+	}
+	
+	.ellipse2,
+	.ellipse4,
+	.orange_book,
+	.white_book {
+		left: 290px;
+	}
+
+	.info1 {
+		left: 270px;
+	}
+	
+	.info2 {
+		left: 520px;
+		width: 120px;
+	}
+
+	.info2_title {
+		width: 80px;
+		height: 30px;
+		margin-left: 10px;
+	}
+
+	.info3 {
+		left: 215px;
+		top: 725px;
+	}
+	
+	.advantages_section {
+		margin-top: 160px;
+	}
+	
+	.advantages_info {
+		width: 500px;
+	}
+	
+	.advantages_image {
+		width: 480px;
+		height: 400px;
+		margin: -30px 0 0 40px;
+	}
+	
+	.application_section {
+		margin-top: 110px;
+		margin-left: 260px;
+	}
+
+	.ws_macbook,
+	.macbook {
+		left: -400px;
+		top: 4180px;
+	}
+	
+	.ws_macbook {
+		width: 575px;
+		height: 310px;
+	}
+	
+	.macbook_text {
+		left: -70px;
+		font-size: 35px;
+		top: 4320px;
+	}
+	
+	.macbook {
+		width: 685px;
+		height: 370px;
+	}
+	
+	.ws_iphone {
+		width: 115px;
+		height: 230px;
+		left: 135px;
+		top: 4325px;
+	}
+	
+	.iphone_text {
+		left: 100px;
+		top: 4360px;
+		font-size: 16px;
+	}
+	
+	.iphone_text_list {
+		left: 152px;
+		top: 4390px;
+	}
+	
+	.iphone_text_item {
+		width: 90px;
+		font-size: 8px;
+		line-height: 8px;
+		margin-bottom: 5px;
+	}
+	
+	.iphone {
+		width: 125px;
+		height: 250px;
+		left: 130px;
+		top: 4315px;
+	}
+	
+	.application_box {
+		width: 160px;
+		height: 150px;
+	}
+	
+	.application_icon {
+		width: 30px;
+		height: 35px;
+	}
+
+	.useful_section {
+		margin-top: 130px;
+	}
+
+	.useful_title,
+	.useful_box {
+		width: 270px;
+	}
+
+	.useful_box {
+		height: 210px;
+	}
+
+	.useful_icon {
+		height: 25px;
+		width: 25px;
+		margin-top: 15px;
+	}
+
+	.useful_title {
+		height: 30px;
+		font-size: 19px;
+	}
+
+	.useful_text {
+		width: 240px;
+		font-size: 13px;
+		line-height: 15px;
+		margin-left: -6px;
+	}
+
+	.white_space_video {
+		width: 450px;
+		height: 300px;
+	}
+
+	.products_price {
+		width: 270px;
+		font-size: 44px;
+		line-height: 61px;
+	}
+	
+	.products_name {
+		width: 250px;
+		font-size: 25px;
+		line-height: 37px;
+	}
+	
+	.products_list1 {
+		width: 230px;
+	}
+	
+	.products_list2 {
+		width: 340px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.container {
+		margin: 0 15px;
+	}
+
+	.section_title {
+		height: 60px;
+		font-size: 35px;
+	}
+
+	.section_description {
+		margin-bottom: 10px;
+	}
+
+	.header {
+		height: 115px;
+	}
+
+	.nav_option {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.ellipse {
+		top: 14.46%;
+	}
+	
+	.semi_ellipse {
+		top: 16.11%;
+	}
+
+	.like {
+		bottom: 67.31%;
+	}
+
+	.home_title {
+		width: 450px;
+		font-size: 35px;
+		line-height: 50px;
+	}
+
+	.home_paragraph {
+		width: 350px;
+		height: 85px;
+		margin: 0 0 35px;
+	}
+
+	.download_button,
+	.buy_button {
+		width: 160px;
+		height: 80px;
+		padding: 20px 0 10px;
+		text-align: center;
+	}
+
+	.ellipse2,
+	.ellipse4,
+	.orange_book,
+	.white_book {
+		left: 160px;
+	}
+
+	.ellipse1 {
+		width: 240px;
+		height: 240px;
+	}
+	
+	.ellipse2 {
+		width: 260px;
+		height: 260px;
+		top: 320px;
+	}
+	
+	.ellipse3 {
+		width: 55px;
+		height: 55px;
+	}
+	
+	.ellipse4 {
+		width: 70px;
+		height: 70px;
+		top: 280px;
+	}
+
+	.orange_book {
+		width: 240px;
+		height: 250px;
+		left: 190px;
+		top: 330px;
+	}
+	
+	.white_book {
+		width: 180px;
+		height: 199px;
+		left: 150px;
+	}
+
+	.info1 {
+		width: 130px;
+		height: 70px;
+		left: 190px;
+		top: 430px;
+		padding: 10px 0;
+	}
+
+	.info1_title {
+		font-size: 9px;
+		height: 30px;
+	}
+
+	.icons {
+		margin-left: 45px;
+	}
+
+	.info1_icon {
+		font-size: 10px;
+		padding: 5.75px 8.25px;
+		margin-left: -24px;
+	}
+
+	.info1_number {
+		width: 50px;
+		height: 10px;
+		font-size: 10px;
+		margin-left: 4px;
+	}
+
+	.info2 {
+		left: 370px;
+		top: 520px;
+		height: 45px;
+		width: 95px;
+		padding: 4px 2px 4px 5px;
+	}
+
+	.info2_icon {
+		width: 15px;
+		height: 15px;
+	}
+
+	.info2_title {
+		width: 60px;
+		height: 20px;
+		font-size: 10px;
+		line-height: 10px;
+		margin-left: 10px;
+	}
+
+	.info3 {
+		width: 110px;
+		height: 30px;
+		left: 85px;
+		top: 685px;
+		padding: 4px 9px 4px 8px;
+	}
+
+	.info3_icon {
+		width: 20px;
+		height: 16px;
+	}
+	
+	.info3_title {
+		width: 80px;
+		height: 15px;
+		font-size: 10px;
+		margin-left: -9px;
+	}
+
+	.about_info {
+		margin-bottom: 20px;
+	}
+
+	.about_index {
+		width: 85px;
+		font-size: 50px;
+	}
+
+	.about_paragraph {
+		width: 365px;
+		font-size: 17px;
+		line-height: 25px;
+	}
+
+	.whom_box {
+		width: 200px;
+		height: 250px;
+	}
+
+	.whom_icon {
+		width: 60px;
+		height: 65px;
+		margin: 30px 0 10px 0;
+	}
+
+	.whom_text {
+		height: 50px;
+		width: 180px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	.advantages_info {
+		width: 430px;
+	}
+
+	.advantages_image {
+		width: 380px;
+		height: 300px;
+		margin: -30px 0 0 40px;
+	}
+
+	.whywe_section {
+		margin-top: 100px;
+	}
+
+	.application_section {
+		margin-top: 110px;
+		margin-left: 280px;
+	}
+
+	.application_section .section_title,
+	.application_section .section_description {
+		margin-left: -260px;
+	}
+
+	.application_paragraph {
+		height: 80px;
+		font-size: 14px;
+		line-height: 20px;
+		margin: 40px 0 40px -50px;
+	}
+	
+	.useful_section {
+		margin-top: 100px;
+	}
+
+	.useful_title,
+	.useful_box {
+		width: 210px;
+	}
+
+	.useful_box {
+		height: 210px;
+	}
+
+	.useful_title {
+		font-size: 14px;
+	}
+
+	.useful_text {
+		width: 190px;
+		font-size: 10px;
+	}
+
+	.ouroffer_data {
+		margin-top: 10px;
+	}
+
+	.ouroffer_text {
+		height: 20px;
+		font-size: 13px;
+		margin: 5px 0;
+	}
+
+	.white_space_video {
+		width: 400px;
+		height: 320px;
+	}
+
+	.products_price {
+		width: 205px;
+		font-size: 40px;
+		line-height: 61px;
+	}
+	
+	.products_name {
+		width: 220px;
+		font-size: 20px;
+		line-height: 37px;
+	}
+	
+	.products_list1 {
+		width: 190px;
+	}
+	
+	.products_list2 {
+		width: 260px;
+	}
+
+	.products_item {
+		height: 30px;
+		font-size: 13px;
+		line-height: 15px;
+		margin: 0 15px 0 10px;
+	}
+
+	.button_text {
+		font-size: 13px;
+	}
+
+	.products_index {
+		width: 20%;
+		height: 80px;
+		font-weight: 800;
+		font-size: 70px;
+		line-height: 85px;
+		text-align: right;
+	}
+}
