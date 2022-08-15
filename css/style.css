@@ -925,10 +925,12 @@ nav {
 .pages {
 	margin: 40px 0 0 130px;
 	align-items: center;
+	cursor: pointer;
 }
 
 .page_prev {
 	margin-right: 15px;
+	cursor: pointer;
 }
 
 .swipe_btn {
