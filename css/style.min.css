@@ -65,6 +65,7 @@ p {
 
 .main_word {
 	color: #ffaa00;
+	text-transform: uppercase;
 }
 
 .section_title {
@@ -91,6 +92,13 @@ p {
 	height: 60px;
 	border-radius: 10px;
 	padding: 20px 0 10px;
+	transition: ease-in .25s;
+}
+button{
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	font-family: 'Montserrat';
 }
 
 .button1 {
@@ -808,6 +816,13 @@ nav {
 .products_section {
 	margin: 150px 0 180px;
 }
+.products_data{
+	display: none;
+}
+.products_data._active{
+	display: flex;
+	flex-wrap: wrap;
+}
 
 .orange_book2 {
 	margin: 50px 30px 0 -40px;
@@ -827,11 +842,12 @@ nav {
 }
 
 .products_price {
-	width: 270px;
+	/* width: 270px; */
 	height: 60px;
 	font-size: 50px;
 	line-height: 61px;
 	color: #FFAA00;
+	text-transform: uppercase;
 }
 
 .products_name {
@@ -888,30 +904,26 @@ nav {
 	margin-right: 15px;
 }
 
-.odd_page,
-.even_page {
+.swipe_btn {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
 	padding: 10px 15px;
+	margin: 0 10px;
+	cursor: pointer;
 }
 
-.odd_page {
+.swipe_btn {
 	border: 1px solid #fff;
 }
 
-.odd_page:hover {
+.swipe_btn:hover {
 	opacity: .8;
 }
 
-.even_page {
+.swipe_btn._active {
 	background: #fff;
 	color: #000;
-	margin: 0 10px;
-}
-
-.even_page:hover {
-	opacity: .8;
 }
 
 .page_next {
