@@ -661,6 +661,7 @@ nav {
 
 .application_content {
 	width: 580px;
+	margin-left: 2vw;
 }
 
 .application_content .section_title {
