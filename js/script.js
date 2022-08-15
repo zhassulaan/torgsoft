@@ -1,12 +1,11 @@
 function swipeTo(elem_id) {
 	let elems = document.getElementsByClassName('products_data');
-	let numb_btns = document.getElementsByClassName('swipe_btn_page');
-	let arrow_btns = document.getElementsByClassName('swipe_btn');
+	let btns = document.getElementsByClassName('swipe_btn');
 	for (let el of elems) {
 		el.classList.remove('_active');
 	}
 	let btn = null;
-	for (let el of numb_btns) {
+	for (let el of btns) {
 		el.classList.remove('_active');
 		if (el.dataset.swipeId == elem_id) {
 			btn = el;
