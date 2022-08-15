@@ -180,7 +180,7 @@
 	}
 	
 	.ws_macbook {
-		margin-left: -45.6vw;
+		margin-left: -42.6vw;
 	}
 	
 	.macbook_text {
@@ -188,7 +188,6 @@
 	}
 
 	.apps {
-		margin-left: -6vw;
 		width: 45vw;
 	}
 
@@ -467,7 +466,7 @@
 	}
 
 	.apps {
-		margin-left: -6vw;
+		margin-left: 5vw;
 		width: 43vw;
 	}
 
@@ -572,12 +571,6 @@
 	
 	.products_list2 {
 		width: 35vw;
-	}
-}
-
-@media screen and (max-width: 1080px) {
-	.apps {
-		margin-left: -12vw;
 	}
 }
 
@@ -778,7 +771,7 @@
 	}
 	
 	.apps {
-		margin-left: -20vw;
+		margin-left: 6vw;
 		width: 44vw;
 	}
 	
@@ -830,7 +823,8 @@
 	}
 
 	.application_content .section_title {
-		width: 450px;
+		width: 420px;
+		font-size: 30px;
 	}
 	
 	.application_paragraph {
@@ -937,13 +931,6 @@
 	}
 }
 
-@media screen and (max-width: 900px) {
-	.apps {
-		margin-left: -27vw;
-		width: 42vw;
-	}
-}
-
 @media screen and (max-width: 856px) {
 	.about_index {
 		width: 13vw;
@@ -956,12 +943,6 @@
 		height: 90px;
 		font-size: 16px;
 		line-height: 25px;
-	}
-}
-
-@media screen and (max-width: 800px) {
-	.apps {
-		margin-left: -33vw;
 	}
 }
 
@@ -1057,7 +1038,7 @@
 	
 	.apps {
 		width: 44.3vw;
-		margin-left: 0;
+		margin: 3vw 0 0 10vw;
 	}
 
 	.application_paragraph {
