@@ -98,19 +98,19 @@ p {
 	margin-right: 20px;
 }
 
+.button1:hover {
+	background: #ffaa00;
+	transform: scale(1.05);
+}
+
 .button2 {
 	border: 2px solid #3b82f6;
 	margin-left: 20px;
 }
 
-.button1:hover {
-	background: transparent;
-	padding: 18px 0 8px;
-	border: 2px solid #3b82f6;
-}
-
 .button2:hover {
-	background: #3b82f6;
+	border: 2px solid #ffaa00;
+	transform: scale(1.05);
 }
 
 .button_text {
@@ -244,14 +244,31 @@ nav {
 	background-color: transparent;
 	border: 1px solid #fff;
 	border-radius: 5px 0 0 5px;
+	outline: none;
 	padding: 10px 43px 10px 12px;
 	transition: 0.3s;
 }
 
-.input_icon {
+.input_box {
+	width: 40px;
+	height: 40px;
 	background-color: #3b82f6;
 	border-radius: 0 5px 5px 0;
-	padding: 10px;
+}
+
+.input_icon {
+	font-size: 18px;
+	margin: 10px;
+}
+
+.input_text:focus {
+	box-shadow: 0 0 2px 1px #3b82f680;
+	border: 1px solid #3b82f6;
+}
+
+.input_text:focus +.input_icon {
+	background-color: #3b82f680;
+	transform: scale(1.05);
 }
 
 
@@ -444,7 +461,7 @@ nav {
 
 /* WHOM */
 .whom {
-	margin: 90px 0 30px 0;
+	margin: 90px 0 30px;
 }
 
 .whom_content {
@@ -752,14 +769,14 @@ nav {
 	margin-top: 30px;
 }
 
-.ouroffer_list {
-	width: 34vw;
-	margin: 20px;
-}
-
 .ouroffer_title {
 	font-size: 18px;
 	line-height: 30px;
+}
+
+.ouroffer_list {
+	width: 34vw;
+	margin: 20px;
 }
 
 .ouroffer_text {
@@ -883,9 +900,7 @@ nav {
 }
 
 .odd_page:hover {
-	background: #fff;
-	color: #000;
-	border: 0px solid #fff;
+	opacity: .8;
 }
 
 .even_page {
@@ -895,9 +910,7 @@ nav {
 }
 
 .even_page:hover {
-	background: transparent;
-	color: #fff;
-	border: 1px solid #fff;
+	opacity: .8;
 }
 
 .page_next {
