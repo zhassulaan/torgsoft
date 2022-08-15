@@ -883,8 +883,8 @@
 	}
 
 	.orange_book2 {
-		width: 31vw;
-		height: 31vw;
+		width: 35vw;
+		height: 35vw;
 		margin: 50px 0 0;
 	}
 
@@ -1180,6 +1180,7 @@
 		font-size: 2vw;
 		line-height: 22px;
 	}
+
 	.products_list1,
 	.products_list2 {
 		height: 27vw;
@@ -1303,10 +1304,14 @@
 		padding-right: 12px;
 	}
 	
-	.input_icon {
+	.input_box {
 		height: 30px;
 		width: 30px;
-		padding: 9px 7px;
+	}
+
+	.input_icon {
+		font-size: 14px;
+		margin: 8px;
 	}
 
 	.home_title {
@@ -1560,4 +1565,535 @@
 	}
 }
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+	.section_title {
+		height: 6.5vw;
+		font-size: 6vw;
+	}
+	
+	.section_description {
+		height: 3.3vw;
+		font-size: 2.8vw;
+		margin-bottom: 1.25vw;
+	}
+
+	.button1,
+	.button2 {
+		width: 18vw;
+		height: 8vw;
+		border-radius: 2.5vw;
+		padding: 2vw 0 0.75vw;
+	}
+
+	.button2 {
+		border: 0.4vw solid #3b82f6;
+	}
+	
+	.button2:hover {
+		border: 0.4vw solid #ffaa00;
+	}
+	
+	.button_text {
+		width: 18vw;
+		height: 6vw;
+		font-size: 1.6vw;
+		line-height: 2vw;
+		text-align: center;
+	}
+
+	.header { 
+		height: 20vw;
+	}
+
+	.nav_menu {
+		margin-top: 6vw;
+	}
+
+	.nav_toggle {
+		width: 5vw;
+	}
+	
+	.nav_toggle:before{
+		transform: translateY(-2.5vw);
+	}
+	
+	.nav_toggle:after {
+		transform: translateY(2.5vw);
+	}
+	
+	.nav_toggle:after,
+	.nav_toggle:before {
+		width: 7vw;
+	}
+
+	.nav_title {
+		font-size: 5vw;
+		margin-left: 6vw;
+	}
+	
+	.nav_option {
+		flex-direction: column;
+		margin-top: 4vw;
+	}
+
+	.nav_phone {
+		font-size: 3.3vw;
+		width: 30vw;
+		text-align: right;
+		margin: 0 0 1vw;
+	}
+
+	.nav_input {
+		width: 48vw;
+		height: 8vw;
+	}
+
+	.input_text {
+		width: 40vw;
+		height: 8vw;
+		font-size: 3vw;
+	}
+
+	.input_box {
+		width: 8vw;
+		height: 8vw;
+	}
+	
+	.input_icon {
+		font-size: 4vw;
+		margin: 2vw;
+	}
+
+	.home_content {
+		padding-top: 30vw;
+	}
+
+	.home_title {
+		width: 80vw;
+		height: 18vw;
+		font-size: 6vw;
+		line-height: 8vw;
+	}
+	
+	.home_paragraph {
+		width: 50vw;
+		font-size: 2.8vw;
+		line-height: 4.5vw;
+		margin: 8vw 0 6vw;
+	}
+
+	.ellipse2,
+	.ellipse4 {
+		border: 1px solid #fff;
+	}
+
+	.ellipse1 {
+		width: 33vw;
+		height: 33vw;
+	}
+
+	.ellipse2 {
+		width: 36vw;
+		height: 36vw;
+		margin-top: 7.5vw;
+		margin-left: -1vw;
+	}
+
+	.ellipse3 {
+		width: 9vw;
+		height: 9vw;
+	}
+
+	.ellipse4 {
+		width: 11vw;
+		height: 11vw;
+		margin-top: 40vw;
+		margin-left: -5.5vw;
+	}
+
+	.orange_book {
+		width: 34vw;
+		height: 36vw;
+	}
+
+	.white_book {
+		width: 26vw;
+		height: 28vw;
+		margin-top: 5vw;
+		margin-left: 10.5vw;
+	}
+	
+	.home_box {
+		border-radius: 1vw;
+	}
+
+	.hb1 {
+		width: 12vw;
+		height: 7.5vw;
+		margin-top: 0vw;
+		margin-left: -3vw;
+		padding-top: 0.8vw;
+	}
+	
+	.home_box_title1 {
+		font-size: 0.95vw;
+		margin: 0;
+	}
+
+	.hb1 .wrap {
+		margin-top: -1vw;
+	}
+
+	.home_box_icon1 {
+		height: 2.85vw;
+		width: 2.85vw;
+		border: 0.3vw solid #fff;
+		padding: 0.2vw;
+		margin-left: -2.85vw;
+	}
+	
+	.home_box_number {
+		height: 1.5vw;
+		width: 6vw;
+		font-size: 1.3vw;
+		margin-left: 0;
+	}
+	
+	.hb2 {
+		height: 5.5vw;
+		margin-top: 17vw;
+		padding: 1vw;
+	}
+
+	.hb3 {
+		margin-top: 4.2vw;
+		padding: 0.75vw;
+		justify-content: space-between;
+	}
+	
+	.home_box_title3 {
+		height: 2vw;
+		width: 10vw;
+		font-size: 1.5vw;
+	}
+
+	.about_content,
+	.advantages_section,
+	.whywe_section,
+	.application_section,
+	.useful_section,
+	.ouroffer_section,
+	.products_section {
+		margin-top: 30vw;
+	}
+
+	.about_data {
+		margin-top: 12vw;
+	}
+
+	.about_index {
+		width: 17vw;
+		height: 12vw;
+		font-size: 10vw;
+		margin-top: 0;
+	}
+	
+	.about_paragraph {
+		width: 70vw;
+		height: 22vw;
+		font-size: 2.825vw;
+		line-height: 15px;
+		padding: 2.5vw 0;
+	}
+
+	.whom {
+		margin: 9vw 0 3vw;
+	}
+
+	.whom_box {
+		width: 50vw;
+		height: 45vw;
+		margin-top: 3.5vw;
+	}
+
+	.whom_icon {
+		height: 14vw;
+		width: 18vw;
+		margin: 5vw 0;
+	}
+
+	.whom_text {
+		font-size: 3.2vw;
+		line-height: 4.5vw;
+		padding-top: 5vw;
+	}
+
+	.whom_box .p1,
+	.whom_box .p2,
+	.whom_box .p3,
+	.whom_box .p4 {
+		margin: 0 5vw;
+	}
+
+	.advantages_info {
+		width: 75vw;
+		height: 10vw;
+		margin: 5vw 0 0;
+	}
+
+	.advantages_text {
+		font-size: 3.5vw;
+		height: 9vw;
+		line-height: 4.5vw;
+	}
+
+	.advantages_icon {
+		font-size: 5.5vw;
+		padding-top: 1vw;
+	}
+
+	.advantages_image {
+		width: 80vw;
+		height: 60vw;
+		margin-left: 9vw;
+	}
+
+	.whywe_data {
+		margin-top: 12vw;
+	}
+
+	.whywe_value,
+	.whywe_name {
+		width: 30vw;
+	}
+
+	.whywe_value {
+		height: 8vw;
+		font-size: 6vw;
+	}
+	
+	.whywe_name {
+		height: 10vw;
+		font-size: 3vw;
+		margin-top: 2vw;
+	}
+
+	.ws_macbook {
+		width: 75vw;
+		height: 63vw;
+		margin-left: -10vw;
+	}
+	
+	.macbook {
+		width: 90vw;
+		height: 75vw;
+	}
+
+	.macbook_text {
+		font-size: 9vw;
+		margin-top: -55vw;
+		margin-left: 1vw;
+	}
+
+	.ws_iphone {
+		width: 32vw;
+		height: 64vw;
+		border-radius: 10%;
+		margin-top: -35vw;
+		margin-left: 35vw;
+	}
+	
+	.iphone {
+		width: 34vw;
+		height: 66vw;
+		margin-top: -0.6vw;
+		margin-left: -0.5vw;
+	}
+
+	.iphone_text {
+		font-size: 4vw;
+		margin-top: -61vw;
+		margin-left: 1.5vw;
+	}
+	
+	.iphone_text_list {
+		height: 250px;
+		width: 22vw;
+		margin-top: 0;
+		margin-left: 5vw;
+	}
+	
+	.iphone_text_item {
+		width: 22vw;
+		font-size: 2vw;
+		line-height: 2.3vw;
+	}
+
+	.apps {
+		width: 100vw;
+		justify-content: center;
+		margin: 10vw 0 0;
+	}
+
+	.application_section .section_title {
+		width: 100%;
+		height: 16vw;
+		font-size: 6vw;
+	}
+	
+	.application_paragraph {
+		font-size: 3.2vw;
+		width: 75%;
+		margin: 6vw 0;
+	}
+
+	.application_data {
+		margin: 0;
+	}
+
+	.application_box {
+		width: 26vw;
+		height: 24vw;
+		margin: 0;
+	}
+
+	.apple,
+	.application_icon {
+		width: 5.5vw;
+		height: 5.5vw;
+		margin-top: 3.5vw;
+	}
+
+	.application_text {
+		width: 20vw;
+		font-size: 2.6vw;
+	}
+
+	.useful_box {
+		width: 60vw;
+		height: 40vw;
+		margin-top: 4vw;
+	}
+
+	.useful_icon {
+		width: 7.5vw;
+		height: 7.5vw;
+		margin-top: 3vw;
+	}
+
+	.useful_title {
+		width: 60vw;
+		font-size: 4vw;
+		line-height: 5vw;
+	}
+
+	.useful_text {
+		width: 50vw;
+		height: 15vw;
+		font-size: 2vw;
+		line-height: 3.6vw;
+	}
+
+	.ouroffer_section  .section_title {
+		height: 6.5vw;
+	}
+
+	.ouroffer_data {
+		margin-top: 6vw;
+	}
+
+	.ouroffer_title {
+		width: 80vw;
+		font-size: 3vw;
+	}
+	
+	.ouroffer_text {
+		width: 80vw;
+		font-size: 2.4vw;
+		line-height: 4.5vw;
+	}
+
+	.white_space_video {
+		width: 70vw;
+		height: 51vw;
+	}
+
+	.products_section {
+		margin-bottom: 15vw;
+	}
+
+	.orange_book2 {
+		height: 75vw;
+		width: 75vw;
+		margin: 10vw 0 0;
+	}
+
+	.products_info {
+		width: 100%;
+	}
+
+	.products_price {
+		width: 40vw;
+		font-size: 8vw;
+	}
+	
+	.products_name {
+		width: 50vw;
+		font-size: 3.6vw;
+	}
+
+	.products_list1,
+	.products_list2 {
+		width: 90vw;
+		height: 100%;
+	}
+
+	.products_item {
+		font-size: 3.2vw;
+		line-height: 5vw;
+		margin: 2.5vw 6vw 0;
+	}
+
+	.products_buttons .button1,
+	.products_buttons .button2 {
+		width: 35%;
+		height: 11vw;
+		margin-top: 8vw;
+	}
+
+	.products_buttons .button_text {
+		width: 100%;
+		font-size: 3vw;
+		line-height: 3vw;
+	}
+
+	.products_index {
+		width: 25%;
+		height: 22vw;
+		font-size: 15vw;
+	}
+
+	.pages {
+		margin-top: 7.5vw;
+	}
+
+	.page_prev {
+		margin-right: 4.68vw;
+	}
+	
+	.odd_page,
+	.even_page {
+		width: 10vw;
+		height: 10vw;
+		font-size: 4vw;
+		padding: 2.125vw 2.68vw;
+	}
+	
+	.even_page {
+		margin: 0 3.125vw;
+	}
+	
+	.page_next {
+		margin-left: 4.68vw;
+	}
+}
