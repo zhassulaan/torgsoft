@@ -8,16 +8,17 @@
 	<title>ТоргСофт</title>
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="css/style.min.css">
-	<link rel="stylesheet" href="css/responsive.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
 	<!-- Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
 	<!-- Font Awesome -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel='stylesheet'>
+	
 </head>
-<body>
+<body onload="load()">
 	<!-- header -->
 	<header class="header">
 		<nav class="nav container">
@@ -56,13 +57,13 @@
 						
 						<!-- buttons -->
 						<div class="home_buttons">
-							<div class="button1">
+							<button class="button1">
 								<a download="" href="#" class="button_text">Скачать демо-версию</a>
-							</div>
+							</button>
 		
-							<div class="button2">
+							<button class="button2">
 								<a href="#" class="button_text">Купить полную версию</a>
-							</div>
+							</button>
 						</div>
 					</div>
 	
@@ -375,7 +376,8 @@
 				<p class="section_description">Цены всё решают</p>
 				<h1 class="section_title">Сколько это <span class="main_word">стоит</span></h1>
 				
-				<div class="products_data wrap">
+				<!-- product 1 -->
+				<div class="products_data wrap" id="products_data_no_1">
 					<img src="images/orange_book.png" alt="Orange book" class="orange_book2">
 
 					<div class="products_info">
@@ -406,28 +408,126 @@
 
 						<!-- buttons -->
 						<div class="products_buttons wrap">
-							<div class="button1">
+							<button class="button1">
 								<a href="#" class="button_text little_button">
 									Купить
 								</a>
-							</div>
+							</button>
 							
-							<div class="button2">
+							<button class="button2">
 								<a href="#" class="button_text">
 									Оформить рассрочку
 								</a>
-							</div>
+							</button>
+
+							<h1 class="products_index">01.</h1>
+						</div>
+					</div>
+				</div>
+
+				<!-- product 2 -->
+				<div class="products_data wrap" id="products_data_no_2">
+					<img src="images/orange_book.png" alt="Orange book" class="orange_book2">
+
+					<div class="products_info">
+						<!-- title -->
+						<div class="products_header wrap">
+							<h2 class="products_price">181 115 тг.</h2>
+							<p class="products_name">ТОРГСОФТ <span class="main_word">УЛЬТРА</span></p>
+						</div>
+
+						<!-- description -->
+						<div class="products_body wrap">
+							<ul class="products_list1">
+								<li class="products_item">Локальная версия</li>
+								<li class="products_item">1 склад</li>
+								<li class="products_item">1 пользователь</li>
+								<li class="products_item">Пожизненная лицензия</li>
+								<li class="products_item">Розничная торговля</li>
+								<li class="products_item">Любое торговое оборудование</li>
+							</ul>
+							<ul class="products_list2">
+								<li class="products_item">5 дополнительных опций</li>
+								<li class="products_item">Ограниченные возможности анализа</li>
+								<li class="products_item">Возможность перехода на версию Ультра</li>
+								<li class="products_item">2 часа бесплатной тех.поддержки</li>
+								<li class="products_item">Демо-версия 30 дней</li>
+							</ul>
+						</div>
+
+						<!-- buttons -->
+						<div class="products_buttons wrap">
+							<button class="button1">
+								<a href="#" class="button_text little_button">
+									Купить
+								</a>
+							</button>
+							
+							<button class="button2">
+								<a href="#" class="button_text">
+									Оформить рассрочку
+								</a>
+							</button>
 
 							<h1 class="products_index">02.</h1>
 						</div>
 					</div>
 				</div>
 
+				<!-- product 3 -->
+				<div class="products_data wrap" id="products_data_no_3">
+					<img src="images/orange_book.png" alt="Orange book" class="orange_book2">
+
+					<div class="products_info">
+						<!-- title -->
+						<div class="products_header wrap">
+							<h2 class="products_price">181 115 тг.</h2>
+							<p class="products_name">ТОРГСОФТ <span class="main_word">УЛЬТРА</span></p>
+						</div>
+
+						<!-- description -->
+						<div class="products_body wrap">
+							<ul class="products_list1">
+								<li class="products_item">Локальная версия</li>
+								<li class="products_item">1 склад</li>
+								<li class="products_item">1 пользователь</li>
+								<li class="products_item">Пожизненная лицензия</li>
+								<li class="products_item">Розничная торговля</li>
+								<li class="products_item">Любое торговое оборудование</li>
+							</ul>
+							<ul class="products_list2">
+								<li class="products_item">5 дополнительных опций</li>
+								<li class="products_item">Ограниченные возможности анализа</li>
+								<li class="products_item">Возможность перехода на версию Ультра</li>
+								<li class="products_item">2 часа бесплатной тех.поддержки</li>
+								<li class="products_item">Демо-версия 30 дней</li>
+							</ul>
+						</div>
+
+						<!-- buttons -->
+						<div class="products_buttons wrap">
+							<button class="button1">
+								<a href="#" class="button_text little_button">
+									Купить
+								</a>
+							</button>
+							
+							<button class="button2">
+								<a href="#" class="button_text">
+									Оформить рассрочку
+								</a>
+							</button>
+
+							<h1 class="products_index">03.</h1>
+						</div>
+					</div>
+				</div>
+
 				<div class="pages wrap">
 					<i class="fa-solid fa-angle-left page_prev"></i>
-					<p class="odd_page">1</p>
-					<p class="even_page">2</p>
-					<p class="odd_page">3</p>
+					<p data-swipe-id="1" class="swipe_btn odd_page">1</p>
+					<p data-swipe-id="2" class="swipe_btn even_page">2</p>
+					<p data-swipe-id="3" class="swipe_btn odd_page">3</p>
 					<i class="fa-solid fa-angle-right page_next"></i>
 				</div>
 			</div>
