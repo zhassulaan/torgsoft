@@ -242,7 +242,7 @@
 	}
 	
 	.products_price {
-		width: 260px;
+		/* width: 260px; */
 		font-size: 52px;
 	}
 	
@@ -557,7 +557,7 @@
 
 	.products_price {
 		font-size: 4.3vw;
-		width: 25vw;
+		/* width: 25vw; */
 	}
 	
 	.products_name {
@@ -894,7 +894,7 @@
 
 	.products_price {
 		font-size: 5.2vw;
-		width: 28vw;
+		/* width: 28vw; */
 	}
 	
 	.products_name {
@@ -1153,7 +1153,7 @@
 
 	.products_price {
 		font-size: 6vw;
-		width: 32vw;
+		/* width: 32vw; */
 	}
 	
 	.products_item {
@@ -2014,7 +2014,7 @@
 	}
 
 	.products_price {
-		width: 40vw;
+		/* width: 40vw; */
 		font-size: 8vw;
 	}
 	
