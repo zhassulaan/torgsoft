@@ -81,10 +81,6 @@ p {
 	margin-bottom: 20px;
 }
 
-.home_buttons {
-	display: flex;
-}
-
 .button1,
 .button2 {
 	display: flex;
@@ -94,6 +90,7 @@ p {
 	padding: 20px 0 10px;
 	transition: ease-in .25s;
 }
+
 button{
 	cursor: pointer;
 	background: transparent;
@@ -303,6 +300,10 @@ nav {
 	margin: 20px 0 50px;
 }
 
+.home_buttons {
+	display: flex;
+}
+
 .ellipse1,
 .ellipse2,
 .ellipse3,
@@ -364,6 +365,7 @@ nav {
 	box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.15);
 	border-radius: 10px;
 	align-items: center;
+	cursor: pointer;
 }
 
 .hb1 {
@@ -483,6 +485,12 @@ nav {
 	border-radius: 10px;
 	display: grid;
 	place-items: center;
+	transition: ease-in .25s;
+	cursor: pointer;
+}
+
+.whom_box:hover {
+	transform: scale(1.1);
 }
 
 .whom_icon {
@@ -695,6 +703,12 @@ nav {
 	border-radius: 10px;
 	display: grid;
 	place-items: center;
+	cursor: pointer;
+	transition: ease-in .1;
+}
+
+.application_box:hover {
+	opacity: 0.75;
 }
 
 .apple {
@@ -714,7 +728,6 @@ nav {
 	text-align: center;
 	color: #000;
 }
-
 
 /* USEFUL */
 .useful_section {
@@ -742,6 +755,18 @@ nav {
 	display: grid;
 	place-items: center;
 	margin-top: 20px;
+	transition: ease-in .25s;
+	cursor: pointer;
+}
+
+.useful_box:hover {
+	opacity: 0.75;
+}
+
+.useful_box:hover .useful_icon, 
+.useful_box:hover .useful_title, 
+.useful_box:hover .useful_text {
+	transform: scale(1.05);
 }
 
 .useful_icon {
@@ -816,9 +841,11 @@ nav {
 .products_section {
 	margin: 150px 0 180px;
 }
-.products_data{
+
+.products_data {
 	display: none;
 }
+
 .products_data._active{
 	display: flex;
 	flex-wrap: wrap;
@@ -842,7 +869,7 @@ nav {
 }
 
 .products_price {
-	/* width: 270px; */
+	width: 270px;
 	height: 60px;
 	font-size: 50px;
 	line-height: 61px;
