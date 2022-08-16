@@ -242,7 +242,6 @@
 	}
 	
 	.products_price {
-		/* width: 260px; */
 		font-size: 52px;
 	}
 	
@@ -421,7 +420,6 @@
 	}
 
 	.advantages_info {
-		height: 4vw;
 		width: 40vw;
 	}
 
@@ -434,8 +432,16 @@
 
 	.advantages_text {
 		font-size: 2vw;
-		height: 6vw;
-		line-height: 20px;
+	}
+
+	.advantages_icon_border {
+		width: 2.175vw;
+		height: 2.175vw;
+	}
+	
+	.advantages_icon {
+		height: 0.6vw;
+		width: 1.1vw;
 	}
 
 	.advantages_image {
@@ -760,8 +766,17 @@
 	}
 
 	.advantages_info {
-		height: 6vw;
 		margin: 30px 40px 30px 0;
+	}
+
+	.advantages_icon_border {
+		width: 2.85vw;
+		height: 2.85vw;
+	}
+	
+	.advantages_icon {
+		height: 0.75vw;
+		width: 1.5vw;
 	}
 	
 	.advantages_image {
@@ -1153,7 +1168,6 @@
 
 	.products_price {
 		font-size: 6vw;
-		/* width: 32vw; */
 	}
 	
 	.products_item {
@@ -1401,19 +1415,28 @@
 		margin: 5vw 0 0;
 	}
 	
-	.advantages_text {
-		height: 30px;
-		font-size: 2.65vw;
-		line-height: 10px;
-	}
-	
 	.advantages_info .p1,
 	.advantages_info .p2,
 	.advantages_info .p3,
 	.advantages_info .p4 {
 		width: 50vw;
 	}
+	
+	.advantages_text {
+		font-size: 2.65vw;
+		line-height: 10px;
+	}
 
+	.advantages_icon_border {
+		width: 3.25vw;
+		height: 3.25vw;
+	}
+	
+	.advantages_icon {
+		height: 0.9vw;
+		width: 1.6vw;
+	}
+	
 	.whywe_value {
 		width: 30vw;
 	}
@@ -1814,18 +1837,22 @@
 
 	.advantages_info {
 		width: 75vw;
-		height: 10vw;
 		margin: 5vw 0 0;
 	}
 
 	.advantages_text {
 		font-size: 3.5vw;
-		height: 9vw;
 		line-height: 4.5vw;
 	}
 
+	.advantages_icon_border {
+		width: 4.25vw;
+		height: 4.25vw;
+	}
+	
 	.advantages_icon {
-		padding-top: 1vw;
+		height: 0.9vw;
+		width: 2.1vw;
 	}
 
 	.advantages_image {
