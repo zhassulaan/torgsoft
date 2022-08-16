@@ -619,6 +619,10 @@ nav {
 	margin-top: 230px;
 }
 
+.application_section .wrap {
+	justify-content: space-between;
+}
+
 .white_space {
 	background: #fff;
 }
