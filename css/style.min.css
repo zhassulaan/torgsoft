@@ -81,10 +81,6 @@ p {
 	margin-bottom: 20px;
 }
 
-.home_buttons {
-	display: flex;
-}
-
 .button1,
 .button2 {
 	display: flex;
@@ -94,6 +90,7 @@ p {
 	padding: 20px 0 10px;
 	transition: ease-in .25s;
 }
+
 button{
 	cursor: pointer;
 	background: transparent;
@@ -283,7 +280,7 @@ nav {
 /* HOME */
 .home_section {
 	width: 100%;
-	background: linear-gradient(170.04deg, #3b82f6 -177.26%, rgba(59, 130, 246, 0) 85.51%);
+	background: linear-gradient(184.37deg, rgba(59, 130, 246, 0.3) 3.98%, rgba(59, 130, 246, 0) 88%);
 }
 
 .home_content {
@@ -301,6 +298,10 @@ nav {
 	font-size: 18px;
 	line-height: 30px;
 	margin: 20px 0 50px;
+}
+
+.home_buttons {
+	display: flex;
 }
 
 .ellipse1,
@@ -364,6 +365,7 @@ nav {
 	box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.15);
 	border-radius: 10px;
 	align-items: center;
+	cursor: pointer;
 }
 
 .hb1 {
@@ -483,6 +485,12 @@ nav {
 	border-radius: 10px;
 	display: grid;
 	place-items: center;
+	transition: ease-in .25s;
+	cursor: pointer;
+}
+
+.whom_box:hover {
+	transform: scale(1.1);
 }
 
 .whom_icon {
@@ -552,9 +560,20 @@ nav {
 	width: 440px;
 }
 
-.advantages_icon {
-	font-size: 30px;
+.advantages_icon_border {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1.875vw;
+	height: 1.875vw;
+	border: 1px solid #fff;
+	border-radius: 50%;
 	margin-right: 20px;
+}
+
+.advantages_icon {
+	height: 0.476vw;
+	width: 0.902vw;
 }
 
 .advantages_image {
@@ -695,6 +714,12 @@ nav {
 	border-radius: 10px;
 	display: grid;
 	place-items: center;
+	cursor: pointer;
+	transition: ease-in .1;
+}
+
+.application_box:hover {
+	opacity: 0.75;
 }
 
 .apple {
@@ -714,7 +739,6 @@ nav {
 	text-align: center;
 	color: #000;
 }
-
 
 /* USEFUL */
 .useful_section {
@@ -742,6 +766,18 @@ nav {
 	display: grid;
 	place-items: center;
 	margin-top: 20px;
+	transition: ease-in .25s;
+	cursor: pointer;
+}
+
+.useful_box:hover {
+	opacity: 0.75;
+}
+
+.useful_box:hover .useful_icon, 
+.useful_box:hover .useful_title, 
+.useful_box:hover .useful_text {
+	transform: scale(1.05);
 }
 
 .useful_icon {
@@ -816,9 +852,11 @@ nav {
 .products_section {
 	margin: 150px 0 180px;
 }
-.products_data{
+
+.products_data {
 	display: none;
 }
+
 .products_data._active{
 	display: flex;
 	flex-wrap: wrap;
@@ -842,7 +880,7 @@ nav {
 }
 
 .products_price {
-	/* width: 270px; */
+	width: 270px;
 	height: 60px;
 	font-size: 50px;
 	line-height: 61px;
@@ -898,10 +936,12 @@ nav {
 .pages {
 	margin: 40px 0 0 130px;
 	align-items: center;
+	cursor: pointer;
 }
 
 .page_prev {
 	margin-right: 15px;
+	cursor: pointer;
 }
 
 .swipe_btn {
