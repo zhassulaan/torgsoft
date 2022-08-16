@@ -346,7 +346,7 @@ nav {
 	width: 140px;
 	height: 140px;
 	margin-top: 15.313vw;
-	margin-left: 8vw;
+	margin-left: 6vw;
 }
 
 .orange_book {
@@ -533,15 +533,11 @@ nav {
 
 .advantages_info {
 	width: 42vw;
-	height: 40px;
 	border-bottom: 1px solid #FFFFFF;
 	margin: 50px 0;
+	padding: 0.4vw 0;
 	justify-content: space-between;
-}
-
-.advantages_text {
-	height: 30px;
-	line-height: 24px;
+	align-items: center;
 }
 
 .advantages_info .p1 {
@@ -558,6 +554,10 @@ nav {
 
 .advantages_info .p4 {
 	width: 440px;
+}
+
+.advantages_text {
+	align-items: center;
 }
 
 .advantages_icon_border {
