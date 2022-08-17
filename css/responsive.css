@@ -926,7 +926,7 @@
 
 	.products_price {
 		font-size: 5.2vw;
-		/* width: 28vw; */
+		width: 35vw;
 	}
 	
 	.products_name {
@@ -1574,6 +1574,8 @@
 		font-size: 10vw;
 	}
 
+	.products_price
+
 	.odd_page,
 	.even_page {
 		width: 8vw;
@@ -2061,12 +2063,12 @@
 	}
 
 	.products_price {
-		/* width: 40vw; */
+		width: 50vw;
 		font-size: 8vw;
 	}
 	
 	.products_name {
-		width: 50vw;
+		width: 40vw;
 		font-size: 3.6vw;
 	}
 
