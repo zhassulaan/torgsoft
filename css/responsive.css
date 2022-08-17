@@ -1576,11 +1576,9 @@
 
 	.products_price
 
-	.odd_page,
-	.even_page {
+	.swipe_btn {
 		width: 8vw;
 		height: 8vw;
-		text-align: center;
 	}
 }
 
@@ -2111,12 +2109,11 @@
 		margin-right: 4.68vw;
 	}
 	
-	.odd_page,
-	.even_page {
+	.swipe_btn {
 		width: 10vw;
 		height: 10vw;
 		font-size: 4vw;
-		padding: 2.125vw 2.68vw;
+		padding: 2.125vw 0;
 	}
 	
 	.even_page {
