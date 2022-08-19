@@ -14,20 +14,19 @@ function swipeTo(elem_id) {
 		}
 	}
 
-	let el = document.getElementById(`products_data_no_${elem_id}`)
+	let el = document.getElementById(`products_data_no_${elem_id}`);
 	el.classList.add('_active');
 	if (btn) {
 		btn.classList.add('_active');
 	}
 }
 
-function mapSwipeBtns(){
+function mapSwipeBtns() {
 	let swipe_btns = document.getElementsByClassName('swipe_btn');
 	let prev_btn = document.querySelector('.page_prev.swipe_page');
 	let next_btn = document.querySelector('.page_next.swipe_page');
 
 	for (let btn of swipe_btns) {
-		console.log(btn.dataset);
 		let swipe_id = btn.dataset.swipeId;
 		btn.onclick = () => {
 			swipeTo(swipe_id);
