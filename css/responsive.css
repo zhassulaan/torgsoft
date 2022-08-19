@@ -14,7 +14,7 @@
 	
 	.useful_text {
 		width: 23.5vw;
-		line-height: 24px;
+		line-height: 1.67vw;
 	}
 }
 
@@ -140,7 +140,7 @@
 	.useful_section,
 	.ouroffer_section,
 	.products_section {
-		margin-top: 140px;
+		margin-top: 11.7vw;
 	}
 
 	.about_index {
@@ -213,7 +213,7 @@
 
 	.useful_text {
 		font-size: 1.1vw;
-		line-height: 22px;
+		line-height: 1.83vw;
 	}
 
 	.ouroffer_section .container {
@@ -244,7 +244,8 @@
 	}
 	
 	.products_name {
-		font-size: 1.8wv;
+		font-size: 1.8vw;
+		line-height: 3vw;
 	}
 
 	.products_list1 {
@@ -256,12 +257,12 @@
 	}
 
 	.little_button {
-		padding: 10px 0;
+		padding: 0.6vw 0 0.8vw;
 	}
 }
 
 @media screen and (max-width: 1200px) {
-	.container {
+	* .container {
 		margin: 0 60px;
 	}
 
@@ -277,7 +278,7 @@
 
 	.home_title {
 		font-size: 3.8vw;
-		line-height: 50px;
+		line-height: 5.25vw;
 	}
 	
 	.home_paragraph {
@@ -506,113 +507,119 @@
 	.application_text {
 		width: 10vw;
 		font-size: 1.25vw;
-		line-height: 15px;
+		line-height: 1.5vw;
 	}
 	
-		.useful_box {
-			width: 28.5vw;
-			height: 22vw;
-			margin-top: 15px;
-		}
+	.useful_box {
+		width: 28.5vw;
+		height: 22vw;
+		margin-top: 15px;
+	}
 	
-		.useful_icon {
-			margin-top: 1.8vw;
-		}
+	.useful_icon {
+		margin-top: 1.8vw;
+	}
 	
-		.useful_title {
-			font-size: 1.9vw;
-		}
+	.useful_title {
+		font-size: 1.9vw;
+	}
 	
-		.useful_text {
-			height: 90px;
-			font-size: 1.1vw;
-			line-height: 18px;
-		}
+	.useful_text {
+		height: 90px;
+		font-size: 1.1vw;
+	}
 		
-		.ouroffer_content {
-			width: 47vw;
-		}
+	.ouroffer_content {
+		width: 47vw;
+	}
 		
-		.ouroffer_title {
-			font-size: 1.6vw;
-			line-height: 25px;
-		}
+	.ouroffer_title {
+		font-size: 1.6vw;
+		line-height: 2.52vw;
+	}
 
-		.ouroffer_list {
-			width: 40vw;
-		}
+	.ouroffer_list {
+		width: 40vw;
+	}
 		
-		.ouroffer_text {
-			font-size: 1.35vw;
-			line-height: 25px;
-		}
+	.ouroffer_text {
+		font-size: 1.35vw;
+		line-height: 2.52vw;
+	}
 			
-		.white_space_video {
-			width: 42vw;
-			margin-top: 10vw;
-			margin-left: -20vw;
-		}
+	.white_space_video {
+		width: 42vw;
+		margin-top: 10vw;
+		margin-left: -20vw;
+	}
 		
-		.products_section {
-			margin-bottom: 160px;
-		}
+	.products_section {
+		margin-bottom: 16.13vw;
+	}
 		
-		.orange_book2 {
-			width: 31vw;
-			height: 31vw;
-			margin-left: 0;
-		}
+	.orange_book2 {
+		width: 31vw;
+		height: 31vw;
+		margin-left: 0;
+	}
 		
-		.products_info {
-			width: 55vw;
-			margin-top: 60px;
-		}
+	.products_info {
+		width: 55vw;
+		margin-top: 6vw;
+	}
 
-		.products_header {
-			padding-bottom: 15px;
-		}
+	.products_header {
+		padding-bottom: 1.5vw;
+	}
 		
-		.products_price {
-			font-size: 4.2vw;
-		}
+	.products_price {
+		font-size: 4.2vw;
+	}
 		
-		.products_name {
-			font-size: 2.4vw;
-		}
+	.products_name {
+		font-size: 2.4vw;
+	}
 		
-		.products_list1 {
-			width: 23vw;
-		}
+	.products_list1 {
+		width: 23vw;
+	}
 		
-		.products_list2 {
-			width: 32vw;
-		}
+	.products_list2 {
+		width: 32vw;
+	}
 
-		.products_item {
-			font-size: 1.4vw;
-			line-height: 2.3vw;
-		}
+	.products_item {
+		font-size: 1.4vw;
+		line-height: 2.3vw;
+	}
 }
 
 @media screen and (max-width: 992px) {
-	.button1,
-	.button2 {
-		width: 20vw;
-		height: 8vw;
+	.container,
+	.home_section .container,
+	.about_section .container {
+		margin: 0 40px;
 	}
 
+	.button1,
+	.button2 {
+		width: 17vw;
+		height: 7vw;
+		padding: 1.5vw 0 0.3vw;
+	}
+	
 	.button1 {
-		margin-right: 5px;
+		margin-right: 7px;
 	}
 	
 	.button2 {
-		margin-left: 5px;
+		margin-left: 7px;
 	}
 	
 	.button_text {
-		width: 20vw;
-		height: 6vw;
-		font-size: 1.825vw;
+		width: 16.5vw;
+		font-size: 1.5vw;
+		padding: 0 1vw;
 	}
 
 	.nav_title {
@@ -632,33 +639,29 @@
 		width: 200px;
 	}
 
-	.home_content {
-		padding-top: 160px;
-	}
-
 	.home_title {
 		width: 65vw;
-		height: 110px;
 		font-size: 4.8vw;
+		line-height: 5.45vw;
 	}
 
 	.home_paragraph {
-		width: 40vw;
-		font-size: 2.2vw;
-		line-height: 26px;
-		margin: 65px 0 40px;
+		width: 35vw;
+		font-size: 1.76vw;
+		line-height: 2.8vw;
+		margin: 7.8vw 0 5.2vw;
 	}
 
 	.ellipse1 {
-		width: 35.2vw;
-		height: 35.2vw;
+		width: 33vw;
+		height: 33vw;
 	}
 	
 	.ellipse2 {
-		width: 37.8vw;
-		height: 37.8vw;
+		width: 35.5vw;
+		height: 35.5vw;
 		margin-top: 2vw;
-		margin-left: 0vw;
+		margin-left: -2vw;
 	}
 	
 	.ellipse3 {
@@ -669,29 +672,29 @@
 	.ellipse4 {
 		width: 11vw;
 		height: 11vw;
-		margin-left: -6vw;
-		margin-top: 36vw;
+		margin-left: 3vw;
+		margin-top: 33vw;
 	}
 
 	.orange_book {
-		width: 37vw;
-		height: 38vw;
+		width: 34vw;
+		height: 35vw;
 	}
 	
 	.white_book {
-		width: 27vw;
-		height: 28vw;
-		margin-top: 7vw;
-		margin-left: 12vw;
+		width: 25vw;
+		height: 26vw;
+		margin-top: 6.5vw;
+		margin-left: 11vw;
 	}
 
 	.hb1 {
-		width: 15vw;
+		width: 16vw;
 		height: 10vw;
 		margin-left: -4vw;
-		padding-top: 10px;
+		padding-top: 1.3vw;
 	}
-
+	
 	.icons {
 		margin-left: 3.3vw;
 	}
@@ -700,18 +703,18 @@
 		width: 3vw;
 		height: 3vw;
 		margin-left: -2.2vw;
-		padding: 1.75px 4.25px;
+		padding: 0.3vw;
 	}
-
+	
 	.home_box_number {
-		width: 60px;
+		margin-left: 1vw;
 		font-size: 1.4vw;
 	}
 
 	.hb2 {
 		width: 15vw;
 		margin-left: 24vw;
-		margin-top: 18.5vw;
+		margin-top: 17.5vw;
 	}
 	
 	.home_box_icon2 {
@@ -726,10 +729,10 @@
 	}
 	
 	.hb3 {
-		width: 15vw;
-		height: 5vw;
+		width: 14vw;
+		height: 4.4vw;
 		margin-top: 3.2vw;
-		margin-left: -9vw;
+		margin-left: -7.5vw;
 		align-items: center;
 	}
 	
@@ -739,20 +742,18 @@
 	}
 	
 	.home_box_title3 {
-		height: 1.8vw;
-		font-size: 1.3vw;
+		font-size: 1.35vw;
 	}
-
+	
 	.about_index {
-		width: 11vw;
 		font-size: 7vw;
+		margin-top: 3vw;
 	}
 	
 	.about_paragraph {
-		width: 32vw;
-		height: 90px;
+		width: 33vw;
 		font-size: 1.6vw;
-		line-height: 20px;
+		line-height: 2.6vw;
 	}
 
 	.whom_content {
@@ -760,15 +761,15 @@
 	}
 
 	.whom_box {
-		width: 33vw;
-		height: 35vw;
-		margin-top: 30px;
+		width: 34vw;
+		height: 35.5vw;
+		margin-top: 3vw;
 	}
-
+	
 	.whom_icon {
-		height: 8vw;
-		width: 15vw;
-		margin: 70px 0 40px 0;
+		height: 8.5vw;
+		width: 15.5vw;
+		margin: 9vw 0 5.2vw 0;
 	}
 	
 	.whom_text {
@@ -776,16 +777,28 @@
 	}
 
 	.advantages_list {
+		width: 100%;
+		margin-top: 6vw;
+	}
+	
+	.advantages_list_row {
 		display: flex;
+		justify-content: space-between;
+		padding: 0 2.5vw;
 	}
-
+	
 	.advantages_info {
-		margin: 30px 40px 30px 0;
+		margin: 2.5vw 0;
+		padding-bottom: 1.1vw;
 	}
 
+	.advantages_text {
+		font-size: 1.8vw;
+	}
+	
 	.advantages_icon_border {
-		width: 2.85vw;
-		height: 2.85vw;
+		width: 2.9vw;
+		height: 2.9vw;
 	}
 	
 	.advantages_icon {
@@ -795,233 +808,254 @@
 	
 	.advantages_image {
 		width: 60vw;
-		height: 50vw;
+		height: 45vw;
 		margin-left: 13vw;
 	}
 	
-	.application_content .section_title {
-		width: 420px;
-		font-size: 30px;
+	.ws_macbook {
+		margin-left: -52vw;
 	}
 	
-	.ws_macbook {
-		margin-left: -450px;
-	}
-
 	.macbook_text {
 		font-size: 4vw;
 		margin-top: -33vw;
-		margin-left: 42vw;
+		margin-left: 45vw;
 	}
-
+	
 	.ws_iphone {
-		width: 155px;
-		height: 310px;
-		margin-top: 220px;
-		margin-left: -60px;
+		width: 20.2vw;
+		height: 40.8vw;
+		margin-top: 24vw;
+		margin-left: -9vw;
 	}
 	
 	.iphone {
-		width: 170px;
-		height: 340px;
-		margin-top: -20px;
-		margin-left: -10px;
+		width: 22.16vw;
+		height: 44.33vw;
+		margin-top: -1.96vw;
+		margin-left: -1.3vw;
 	}
-
+	
 	.iphone_text {
-		width: 140px;
-		font-size: 18px;
-		margin-top: -300px;
+		width: 17vw;
+		font-size: 2.35vw;
+		margin-top: -39.1vw;
 	}
-
+	
 	.iphone_text_list {
-		width: 200px;
-		margin-left: 20px;
+		width: 18vw;
+		margin-left: 2.6vw;
 	}
 	
 	.iphone_text_item {
-		width: 120px;
-		font-size: 9px;
-		line-height: 12px;
-		margin-bottom: 5px;
+		width: 15.65vw;
+		font-size: 1.17vw;
+		line-height: 1.56vw;
+		margin-bottom: 0.65vw;
+	}
+	
+	.application_content.apps {
+		width: 45vw;
+		margin: 0;
+	}
+	
+	.apps .section_description,
+	.apps .section_title {
+		margin-left: -2.5vw;
 	}
 
-	.apps {
-		width: 44vw;
+	.apps .section_title {
+		font-size: 3.75vw;
 	}
-
+	
 	.application_paragraph {
-		height: 150px;
-		font-size: 2.2vw;
-		line-height: 30px;
-		margin: 20px 10px;
-	}
-
-	.application_data {
-		margin-top: -2vw;
+		font-size: 2vw;
+		line-height: 3.3vw;
+		margin: 4vw 1.5vw 6vw;
 	}
 
 	.application_box {
-		margin-bottom: 15px;
+		width: 14vw;
+		height: 13vw;
 	}
-
+	
+	.apple,
+	.application_icon {
+		width: 3.2vw;
+		height: 3.2vw;
+		margin-top: 2.2vw;
+	}
+	
+	.application_text {
+		width: 8.5vw;
+		font-size: 1.35vw;
+	}
+	
 	.useful_data {
 		justify-content: space-evenly;
 	}
-
+	
 	.useful_box {
-		width: 35vw;
-		height: 25vw;
-		margin-top: 20px;
-	}
-
-	.ouroffer_content {
 		width: 40vw;
+		height: 28vw;
+		margin-top: 2.6vw;
 	}
 
-	.ouroffer_content .section_title {
-		height: 14vw;
+	.useful_title {
+		font-size: 2.3vw;
+	}
+	
+	.useful_text {
+		width: 33vw;
+		font-size: 1.45vw;
+		line-height: 2.1vw;
+	}
+
+	.ouroffer_title {
+		font-size: 1.75vw;
 	}
 
 	.ouroffer_text {
-		width: 38vw;
+		font-size: 1.4vw;
 	}
-
+	
 	.ouroffer_video {
 		font-size: 3vw;
 	}
 
-	.products_section {
-		margin-bottom: 130px;
-	}
-
-	.products_data {
-		justify-content: center;
-	}
-
-	.orange_book2 {
-		width: 35vw;
-		height: 35vw;
-		margin: 50px 0 0;
-	}
-
 	.products_info {
-		width: 75vw;
-		margin-top: 20px;
-	}
-
-	.products_header {
-		padding-bottom: 10px;
-		margin-bottom: 30px;
+		width: 60vw;
 	}
 
 	.products_price {
-		font-size: 5.2vw;
-		width: 35vw;
+		font-size: 4.8vw;
 	}
-	
-	.products_name {
-		font-size: 3vw;
-		width: 35vw;
-	}
-
+		
 	.products_list1 {
-		width: 32vw;
+		width: 24vw;
 	}
-	
+		
 	.products_list2 {
-		width: 43vw;
+		width: 35vw;
 	}
 
-	.products_section .button1,
-	.products_section .button2 {
-		width: 25vw;
-		height: 6vw;
+	.products_item {
+		font-size: 1.55vw;
 	}
 
 	.little_button {
-		padding: 0;
-	}
-
-	.button_text {
-		width: 25vw;
-		height: 4.5vw;
+		width: 17vw;
+		padding: 1.2vw 0 ;
 	}
 
 	.pages {
-		justify-content: center;
-		margin: 40px 0 0;
-	}
-}
-
-@media screen and (max-width: 856px) {
-	.about_index {
-		width: 13vw;
-		height: 60px;
-		font-size: 60px;
+		margin: 4vw 0 0 14vw;
 	}
 	
-	.about_paragraph {
-		width: 55vw;
-		height: 90px;
-		font-size: 16px;
-		line-height: 25px;
+	.swipe_btn {
+		font-size: 1.75vw;
+		width: 4.5vw;
+		height: 4.5vw;
+		padding: 1vw 0;
+		margin: 0 1vw;
 	}
 }
-
+	
 @media screen and (max-width: 767px) {
-	.container {
+	.container,
+	.home_section .container,
+	.about_section .container {
 		margin: 0 30px;
 	}
 
+	.section_title {
+		font-size: 5.3vw;
+	}
+	
+	.section_description {
+		font-size: 2vw;
+		margin-bottom: 1.5vw;
+	}
+	
 	.button1,
 	.button2 {
-		padding: 5px 0;
+		width: 18vw;
+		height: 7.5vw;
+		padding: 1.2vw 0 0.3vw;
 	}
-
+	
 	.button_text {
-		font-size: 1.9vw;
+		width: 18vw;
+		font-size: 1.8vw;
 	}
 
+	.header {
+		height: 9.2vw;
+	}
+
+	.nav_menu {
+		margin-top: 3.1vw;
+	}
+	
+	.nav_toggle {
+		height: 0.42vw;
+		width: 2.65vw;
+	}
+	
+	.nav_toggle:before{
+		transform: translateY(-1.45vw);
+	}
+	
+	.nav_toggle:after {
+		transform: translateY(1.45vw);
+	}
+	
+	.nav_toggle:before,
+	.nav_toggle:after {
+		height: 0.42vw;
+		width: 3.85vw;
+	}
+	
+	.nav_title {
+		font-size: 2.46vw;
+		margin-left: 3vw;
+	}
+	
+	.nav_option {
+		margin-top: 2.3vw;
+	}
+	
 	.nav_phone {
-		margin-right: 10px;
+		font-size: 2.15vw;
+		margin-right: 2.3vw;
+	}
+	
+	.nav_input {
+		width: 28.65vw;
+		height: 4.62vw;
+	}
+	
+	.input_text {
+		width: 24vw;
+		height: 4.65vw;
+		font-size: 1.7vw;
+		padding-left: 2vw;
+	}
+	
+	.input_box {
+		height: 4.65vw;
+		width: 4.65vw;
 	}
 
-	.home_content {
-		padding-top: 140px;
-	}
-
-	.home_title {
-		width: 70vw;
-		font-size: 5.2vw;
+	.input_icon {
+		font-size: 1.85vw;
+		margin: 1.4vw;
 	}
 
 	.home_paragraph {
 		width: 42vw;
-		font-size: 2.5vw;
-	}
-
-	.ellipse2 {
-		margin-top: 4vw;
-		margin-left: 0vw;
-	}
-	
-	.ellipse4 {
-		margin-left: -0.5vw;
-		margin-top: 36vw;
-	}
-
-	.hb1 {
-		padding-top: 7px;
-	}
-
-	.home_box_title1 {
-		margin: 5px;
-	}
-
-	.home_box_number {
-		width: 50px;
-		font-size: 1.5vw;
+		font-size: 2.1vw;
+		line-height: 3.2vw;
 	}
 
 	.about_content,
@@ -1031,197 +1065,135 @@
 	.useful_section,
 	.ouroffer_section,
 	.products_section {
-		margin-top: 100px;
+		margin-top: 18vw;
+	}
+
+	.about_info {
+		margin-bottom: 1.5vw;
 	}
 
 	.about_index {
 		width: 15vw;
-		height: 65px;
-		font-size: 60px;
+		font-size: 9.2vw;
 	}
 	
 	.about_paragraph {
 		width: 60vw;
-		height: 90px;
-		font-size: 16px;
-		line-height: 25px;
+		font-size: 2.2vw;
+		line-height: 3.5vw;
 	}
 
 	.whom_box {
-		width: 38vw;
+		width: 33vw;
+		margin-top: 4.5vw;
 	}
 
-	.application_section .section_title {
-		height: 120px;
+	.advantages_info {
+		margin: 2vw 0;
 	}
 
-	.application_content {
-		width: 280px;
+	.advantages_text {
+		font-size: 1.9vw;
 	}
 	
-	.ws_macbook {
-		width: 86vw;
-		height: 46.9vw;
-		margin-left: -60vw;
+	.advantages_icon_border {
+		width: 3.2vw;
+		height: 3.2vw;
 	}
 	
-	.macbook {
-		width: 103vw;
-		height: 53.4vw;
+	.advantages_icon {
+		height: 0.8vw;
+		width: 1.75vw;
+	}
+
+	.application_content.apps {
+		width: 48vw;
+	}
+
+	.application_box {
+		width: 15vw;
+		height: 14vw;
 	}
 	
-	.macbook_text {
-		margin-left: 50vw;
-		margin-top: -37vw;
-	}
-
-	.ws_iphone {
-		width: 19.7vw;
-		height: 40vw;
-		margin-top: 27.7vw;
+	.apple,
+	.application_icon {
+		width: 3.5vw;
+		height: 3.5vw;
 	}
 	
-	.iphone {
-		width: 21.5vw;
-		height: 43.1vw;
-		margin-top: -1.54vw;
-	}
-
-	.iphone_text {
-		width: 18.5vw;
-		font-size: 2.8vw;
-		margin-top: -38.5vw;
-	}
-
-	.iphone_text_list {
-		width: 15.4vw;
-		margin-top: 1.54vw;
-	}
-	
-	.iphone_text_item {
-		width: 15.4vw;
-		font-size: 1.2vw;
-		line-height: 1.54vw;
-	}
-	
-	.apps {
-		width: 44.3vw;
-		margin: 3vw 0 0 10vw;
-	}
-
-	.apps .section_title {
-		width: 300px;
-		font-size: 32px;
-	}
-
-	.application_paragraph {
-		line-height: 25px;
-	}
-
-	.useful_box {
-		width: 40vw;
-		height: 27vw;
-	}
-	
-	.useful_icon {
-		width: 4vw;
-		height: 4vw;
-		margin-top: 2.5vw;
+	.application_text {
+		width: 9vw;
+		font-size: 1.45vw;
+		line-height: 1.8vw;
 	}
 
 	.useful_text {
-		width: 34vw;
-		height: 12vw;
-		font-size: 1.6vw;
-		line-height: 15px;
+		width: 36vw;
+		font-size: 1.65vw;
+		line-height: 2.3vw;
 	}
-
-	.ouroffer_content {
-		width: 45vw;
-	}
-
+	
 	.ouroffer_title {
-		font-size: 2.1vw;
-		line-height: 20px;
+		font-size: 2vw;
 	}
-
+	
 	.ouroffer_text {
-		font-size: 1.8vw;
-		line-height: 20px;
+		font-size: 1.75vw;
+		line-height: 2.8vw;
 	}
-
+	
 	.white_space_video {
 		width: 45vw;
 		height: 33vw;
-		margin-top: 24vw;
 		margin-left: -10vw;
 	}
-	
-	.products_section {
-		margin-bottom: 100px;
-	}
 
+	.products_data {
+		flex-direction: column;
+		justify-content: center;
+	}
+	
 	.orange_book2 {
 		width: 40vw;
 		height: 40vw;
-		margin-top: 35px;
+		margin: 5.4vw 0 0 25.385vw;
 	}
-
+	
 	.products_info {
-		width: 80vw;
+		width: 70vw;
+		margin-left: 10vw;
 	}
-
-	.products_header {
-		padding-bottom: 0;
-	}
-
+	
 	.products_price {
 		font-size: 6vw;
 	}
-	
-	.products_item {
-		height: 4vw;
-		font-size: 2vw;
-		line-height: 22px;
-	}
-
-	.products_list1,
-	.products_list2 {
-		height: 27vw;
-	}
 
 	.products_list1 {
-		width: 30vw;
+		width: 28vw;
 	}
 	
 	.products_list2 {
-		width: 50vw;
+		width: 42vw;
 	}
-
-	.products_section .button1,
-	.products_section .button2 {
-		width: 25vw;
-		height: 6vw;
+	
+	.products_item {
+		font-size: 1.8vw;
+		line-height: 2.85vw;
 	}
 
 	.products_content .button1,
 	.products_content .button2 {
-		width: 27vw;
-		height: 9.2vw;
-		margin: 20px 0 0;
-		padding: 10px 0;
+		width: 20vw;
+		height: 8vw;
+		margin: 3vw 1.3vw 0;
 	}
-
+	
 	.products_content .button_text {
-		width: 27vw;
-		height: 6vw;
-		font-size: 2.4vw;
-		text-align: center;
+		width: 20vw;
 	}
 	
 	.products_content .little_button {
-		height: 3vw;
-		padding: 5px;
+		padding: 1.2vw 0 1vw;
 	}
 }
 
