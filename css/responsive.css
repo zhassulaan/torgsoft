@@ -134,6 +134,7 @@
 	}
 
 	.about_content,
+	.whom,
 	.advantages_section,
 	.whywe_section,
 	.application_section,
@@ -467,7 +468,7 @@
 	}
 	
 	.iphone_text {
-		margin: -365px 0 15px 10px;
+		margin: -365px 0 1.5vw 1vw;
 	}
 	
 	.iphone_text_list {
@@ -1059,6 +1060,7 @@
 	}
 
 	.about_content,
+	.whom,
 	.advantages_section,
 	.whywe_section,
 	.application_section,
@@ -1198,202 +1200,41 @@
 }
 
 @media screen and (max-width: 650px) {
-	.container {
-		margin: 0 15px;
-	}
-
-	.section_title {
-		height: 50px;
-		font-size: 35px;
-	}
-	
-	.section_description {
-		height: 20px;
-		font-size: 15px;
-		margin-bottom: 10px;
-	}
-
-	.button1,
-	.button2 {
-		width: 22vw;
-		height: 9.2vw;
-		padding: 10px 0;
-	}
-
-	.button_text {
-		width: 24vw;
-		height: 6vw;
-		font-size: 2.2vw;
-		line-height: 15px;
-	}
-
-	.header {
-		height: 60px;
-	}
-
-	.nav_menu {
-		margin-top: 20px;
-	}
-	
-	.nav_toggle {
-		height: 3px;
-		width: 18px;
-	}
-	
-	.nav_toggle:before{
-		transform: translateY(-10px);
-	}
-	
-	.nav_toggle:after {
-		transform: translateY(10px);
-	}
-	
-	.nav_toggle:before,
-	.nav_toggle:after {
-		height: 3px;
-		width: 25px;
-	}
-	
-	.nav_title {
-		font-size: 16px;
-		margin-left: 20px;
-	}
-	
-	.nav_option {
-		margin-top: 15px;
-	}
-	
-	.nav_phone {
-		font-size: 14px;
-		margin-right: 15px;
-	}
-	
-	.nav_input {
-		width: 180px;
-		height: 30px;
-	}
-	
-	.input_text {
-		width: 140px;
-		height: 30px;
-		font-size: 11px;
-		padding-right: 12px;
-	}
-	
-	.input_box {
-		height: 30px;
-		width: 30px;
-	}
-
-	.input_icon {
-		font-size: 14px;
-		margin: 8px;
-	}
-
-	.home_title {
-		width: 80vw;
-		height: 90px;
-		font-size: 6vw;
-		line-height: 40px;
-	}
-
-	.home_paragraph {
-		width: 42vw;
-		font-size: 2.6vw;
-		margin: 20px 0 35px;
-	}
-
-	.ellipse1 {
-		width: 36.5vw;
-		height: 36.5vw;
-	}
-	
 	.ellipse2 {
-		width: 39vw;
-		height: 39vw;
-		margin-top: 8vw;
-		margin-left: -6vw;
-	}
-	
-	.ellipse3 {
-		width: 10vw;
-		height: 10vw;
-	}
-	
-	.ellipse4 {
-		width: 12vw;
-		height: 12vw;
-		margin-left: 2vw;
-		margin-top: 42vw;
-	}
-
-	.home_section .button1,
-	.home_section .button2 {
-		margin: 10px 3px 0;
-	}
-
-	.hb1 {
-		width: 15vw;
-		height: 11vw;
+		margin-top: 3vw;
 		margin-left: -4vw;
-		padding-top: 5px;
 	}
 
-	.home_box_title1 {
-		font-size: 1.3vw;
-	}
-
-	.home_box_icon1 {
-		width: 4vw;
-		height: 4vw;
-		margin-left: -3.2vw;
-		padding: 1px 3px;
-	}
-
-	.home_box_number {
-		width: 7vw;
-		height: 8px;
-		font-size: 1.6vw;
+	.ellipse4 {
+		margin-left: 0;
 	}
 
 	.about_index {
 		width: 17vw;
-		height: 70px;
 		font-size: 10vw;
 	}
 	
 	.about_paragraph {
-		width: 70vw;
-		height: 110px;
-		font-size: 2.825vw;
-		line-height: 27px;
+		width: 65vw;
+		font-size: 2.4vw;
+		line-height: 4vw;
 	}
 
-	.whom_box {
-		width: 38vw;
-		height: 42vw;
-		margin-top: 25px;
+	.whom_text {
+		line-height: 3vw;
 	}
 
-	.whom_icon {
-		height: 10vw;
-		width: 15vw;
-		margin: 35px 0 30px 0;
+	.advantages_list_row {
+		flex-direction: column;
 	}
 	
-	.whom_text {
-		font-size: 2.5vw;
-		line-height: 22px;
-	}
-
-	.advantages_list {
-		flex-direction: column;
-		margin: 30px 40px 0;
-	}
-
 	.advantages_info {
 		width: 70vw;
-		margin: 5vw 0 0;
+	}
+
+	.advantages_text {
+		font-size: 2.5vw;
+		line-height: 4vw;
 	}
 	
 	.advantages_info .p1,
@@ -1403,86 +1244,68 @@
 		width: 50vw;
 	}
 	
-	.advantages_text {
-		font-size: 2.65vw;
-		line-height: 10px;
-	}
-
-	.advantages_icon_border {
-		width: 3.25vw;
-		height: 3.25vw;
-	}
-	
-	.advantages_icon {
-		height: 0.9vw;
-		width: 1.6vw;
+	.advantages_image {
+		width: 70vw;
+		height: 50vw;
+		margin-left: 8vw;
 	}
 	
 	.whywe_value {
-		width: 30vw;
+		width: 28vw;
+		font-size: 5.5vw;
 	}
 	
 	.whywe_name {
-		width: 30vw;
 		font-size: 2.7vw;
 	}
 
-	.ws_macbook {
-		width: 88vw;
-		height: 55vw;
+	.whywe_name.p1 {
+		width: 28vw;
 	}
 	
-	.macbook {
-		width: 105vw;
-		height: 60vw;
+	.whywe_name.p2 {
+		width: 14vw;
+		margin: 0 7vw;
 	}
 	
-	.macbook_text {
-		font-size: 4.2vw;
-		margin-left: 50vw;
-		margin-top: -42vw;
-	}
-	
-	.application_section .section_title {
-		width: 100px;
-		font-size: 5.5vw;
+	.whywe_name.p3 {
+		width: 19vw;
+		margin: 0 4.5vw;
 	}
 
-	.application_paragraph {
-		height: 18.75vw;
-		font-size: 2.4vw;
-		line-height: 20px;
-		margin: 35px 10px;
+	.iphone_text {
+		margin-bottom: -1vw;
 	}
 
-	.application_box {
-		width: 16vw;
-		height: 15vw;
-		margin-left: -5vw;
+	.iphone_text_item {
+		font-size: 1.25vw;
 	}
-	
-	.apple,
-	.application_icon {
-		width: 4vw;
-		height: 4.5vw;
-		margin: 10px;
+
+	.useful_box {
+		width: 60vw;
+		height: 36vw;
+		margin-top: 4vw;
 	}
-	
-	.application_text {
-		width: 12vw;
-		height: 25px;
-		font-size: 1.6vw;
-		line-height: 10px;
-	} 
+
+	.useful_icon {
+		width: 7.5vw;
+		height: 7.5vw;
+		margin-top: 3vw;
+	}
 
 	.useful_title {
-		height: 20px;
+		width: 60vw;
+		font-size: 3.5vw;
+		line-height: 5vw;
 	}
 
 	.useful_text {
-		line-height: 11px;
+		width: 50vw;
+		height: 15vw;
+		font-size: 2vw;
+		line-height: 3.6vw;
 	}
-
+	
 	.ouroffer_section .wrap {
 		flex-direction: column;
 	}
@@ -1490,66 +1313,92 @@
 	.ouroffer_content {
 		width: 100%;
 	}
-
+	
 	.ouroffer_title {
 		font-size: 3vw;
 	}
 	
 	.ouroffer_text {
-		font-size: 2.2vw;
-	}
-
-	.ouroffer_list {
-		margin: 10px;
-	}
-
-	.ouroffer_text {
-		font-size: 2.2vw;
 		width: 70vw;
-		line-height: 20px;
+		font-size: 2.2vw;
+		line-height: 3.5vw;
 	}
-
+	
 	.white_space_video {
-		margin: 0;
 		width: 60vw;
 		height: 45vw;
+		margin: 0;
 	}
-
+	
 	.ouroffer_video {
 		font-size: 4.5vw;
 	}
-
+	
 	.orange_book2 {
 		width: 45vw;
 		height: 45vw;
+		margin-left: 21.250vw;
 	}
-
+	
 	.products_info {
-		margin: 0;
+		width: 77.5vw;
+		margin: 4vw 0 0 5vw;
+	}
+	
+	.products_name {
+		font-size: 2.8vw;
 	}
 
-	.products_header {
-		margin-bottom: 15px;
+	.products_list1 {
+		width: 32vw;
+	}
+	
+	.products_list2 {
+		width: 45.5vw;
+	}
+	
+	.products_item {
+		font-size: 2.2vw;
+		line-height: 3vw;
+	}
+
+	.products_content .button1,
+	.products_content .button2 {
+		width: 24vw;
+		height: 9vw;
+		padding: 3vw 0 2.4vw;
+	}
+	
+	.products_content .button_text {
+		font-size: 1.85vw;
+		width: 24vw;
+	}
+	
+	.products_content .little_button {
+		padding-top: 0.7vw;
 	}
 
 	.products_index {
-		width: 15vw;
 		font-size: 10vw;
 	}
 
-	.products_price
-
-	.swipe_btn {
-		width: 8vw;
-		height: 8vw;
+	.pages {
+		margin: 8vw 0 0 25vw;
 	}
-}
-
-@media screen and (max-width: 570px) {
-	.macbook_text {
-		font-size: 4.5vw;
-		margin-left: 44vw;
-		margin-top: -42vw;
+	
+	.swipe_btn {
+		font-size: 2.6vw;
+		width: 6vw;
+		height: 6vw;
+		padding: 1.4vw 0;
+		margin: 0 1.75vw;
+	}
+	.page_prev {
+		margin-right: 1.75vw;
+	}
+	
+	.page_next {
+		margin-left: 1.75vw;
 	}
 }
 
