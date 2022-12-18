@@ -1,2 +1,2 @@
 # torgsoft
-ТОРГСОФТ подходит для учета как розничной, так и оптовой торговли. Программа специализируется на автоматизации следующих направлений:  магазины одежды и обуви; магазины строительных и хозяйственных материалов; детские магазины; магазины канцтоваров; салоны штор, тканей и фурнитуры; предприятия по производству различной продукции; интернет магазины и склады.
+The site of the Torgsoft company, which is suitable for accounting for both retail and wholesale trade. The program specializes in automating the following areas: clothing and footwear stores; building and household materials stores; children's shops; stationery stores; salons of curtains, fabrics and accessories; enterprises for the production of various products; online stores and warehouses.
